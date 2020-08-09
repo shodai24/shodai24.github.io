@@ -15,3 +15,4 @@
   }
 </style>
 <h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
+<img src="img/blue-sky-clear-sky-cold-346529.jpg">
