@@ -30,17 +30,12 @@
 
         var marker = L.marker([52.520008, 13.404954]).addTo(mymap);
         marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
-        var circle = L.circle([ 50.520008, 13.404954], {
+        var circle = L.circle([ 52.520008, 13.404954], {
             color: 'red',
             fillColor: '#f03',
             fillOpacity: 0.5,
             radius: 500
         }).addTo(mymap);
-
-        var popup = L.popup()
-            .setLatLng([52.520008, 13.404954])
-            .setContent("I am a standalone popup.")
-            .openOn(mymap);
 
         function onMapClick(e) {
             popup
