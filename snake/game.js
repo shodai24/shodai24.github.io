@@ -11,7 +11,10 @@ function main(currentTime){
         if (confirm('GAME OVER. PRESS OK TO RESTART')) {
             window.location.reload()
         }
-        else window.close()
+        else {
+            window.close()
+            return
+        }
     }
     window.requestAnimationFrame(main)
     const secondsSinceLastRender = (currentTime - lastRenderTime) / 1000
