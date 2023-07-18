@@ -1,1 +1,1 @@
-A repository for personal practice projects.
+A repository for practice projects.
