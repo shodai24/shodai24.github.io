@@ -32,7 +32,7 @@
 
 .small {
     text-align: center;
-    max-width: 80vw;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     font-size: 0.8em;
@@ -43,7 +43,7 @@
 
 .tiny {
     text-align: left;
-    max-width: 80vw;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     font-size: 0.4em;
