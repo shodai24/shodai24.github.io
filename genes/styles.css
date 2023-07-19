@@ -26,9 +26,9 @@
     text-shadow: 2px 2px 4px rgba(104, 99, 99, 0.5);
 }
 
-.slide {
+/* .slide {
     width: 2vw;
-}
+} */
 
 .small {
     text-align: center;
@@ -114,16 +114,20 @@
     z-index: -1;
 }
 
-.embed-container { 
+.slide .embed-container { 
     position: relative; 
-    padding-bottom: 56.25%;
     overflow: hidden;
-    max-width: 70%;
+    max-width: 800px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    height: auto;
 } 
 
+.embed-container .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
 .embed-container iframe,
 .embed-container object,
 .embed-container embed { 
@@ -133,6 +137,13 @@
     width: 100%;
     height: 100%;
 }
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    .embed-container {
+      max-width: 90%; /* Adjust the max-width for smaller screens */
+    }
+  }
 
 #intro_inheritance {
     background-image: url('img/pexels-karolina-grabowska-4021781.jpg');
